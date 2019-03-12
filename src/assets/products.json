@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "Kids Unicorn",
+      "picture": "umbrella1.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "flag": false,
+      "price": 19,
+      "reviews": [
+        {
+          "review_id": 1,
+          "username": "Luce",
+          "comment": "Bas je smisan",
+          "rate": 5
+        },
+        {
+          "review_id": 2,
+          "username": "Anamaria",
+          "comment": "Presaren je, al je kvalitetan",
+          "rate": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Big Yellow",
+      "picture": "umbrella2.jpg",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "flag": false,
+      "price": 22,
+      "reviews": [
+        {
+          "review_id": 1,
+          "username": "Cvjetko",
+          "comment": "Nije ljubicasti, ne valja",
+          "rate": 2
+        },
+        {
+          "review_id": 2,
+          "username": "Caki",
+          "comment": "Kvalitetan, ali mi se ne svida boja",
+          "rate": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mini with Dots",
+      "picture": "umbrella3.jpg",
+      "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+      "flag": false,
+      "price": 13,
+      "reviews": [
+        {
+          "review_id": 1,
+          "username": "Veronika",
+          "comment": "Meni se svida",
+          "rate": 5
+        },
+        {
+          "review_id": 2,
+          "username": "Luce",
+          "comment": "Puka mi je odma prvi dan",
+          "rate": 1
+        },
+        {
+          "review_id": 3,
+          "username": "Rea",
+          "comment": "Okej je",
+          "rate": 3
+        }
+      ]
+    }
+  ]
