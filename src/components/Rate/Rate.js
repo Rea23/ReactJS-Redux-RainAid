@@ -26,8 +26,8 @@ class Rate extends Component {
       <div>
         <p>
           <b>
-            Ocjena: {this.Calculate()} na temelju {this.state.rates.length}{" "}
-            recenzije/a
+            Current rate: {this.Calculate()} out of {this.state.rates.length}{" "}
+            reviews.
           </b>
         </p>
 

@@ -8,12 +8,12 @@ class FavBtn extends Component {
     super(props);
 
     this.state = {
-      added: this.props.addedItems.find(item => item.id === this.props.prod.id) ? true : false
+      status: this.props.addedItems.find(item => item.id === this.props.prod.id) ? true : false
     };
   }
   onHeartClick = prod => {
-    this.setState({ added: !this.state.added });
-    if (this.state.added)    {
+    this.setState({ status: !this.state.status });
+    if (this.state.status)    {
       this.props.RemoveFavorites(prod.id);
     } else {
       this.props.AddFavorites(prod);
@@ -22,7 +22,7 @@ class FavBtn extends Component {
 
   render() {
     const { prod } = this.props;
-    let cls = this.state.added ? '2' : '1';
+    let cls = this.state.status ? '2' : '1';
     return (
       <i
         title="Favourite"

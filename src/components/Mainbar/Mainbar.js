@@ -25,27 +25,27 @@ class Mainbar extends Component {
 
   render() {
     const { products } = this.props;
-    let Products = products.map(product => {
+    let Products = products.map(Product => {
       return (
-        <div className="product" key={product.id}>
+        <div className="product" key={Product.id}>
           <div className="img-div">
             <img
               className="img"
-              src={require("../../assets/images/" + product.picture)}
-              alt={product.name}
+              src={require("../../assets/images/" + Product.picture)}
+              alt={Product.name}
             />
           </div>
           <div className="second-col">
             <h2 className="product-header">
-              <Link to={"details/" + product.id} onClick={() => this.OnClickDetails(product.id)} className="product-link">{product.name}</Link>
+              <Link to={"details/" + Product.id} onClick={() => this.OnClickDetails(Product.id)} className="product-link">{Product.name}</Link>
             </h2>
             <p className="product-price">
-              <b>${product.price}</b>
+              <b>${Product.price}</b>
             </p>
-            <FavBtn prod={product} className="product-fav" />
+            <FavBtn prod={Product} className="product-fav" />
           </div>
-          <p className="product-description">{product.description}</p>
-          <Rate reviews={product.reviews} className="product-reviews" />
+          <p className="product-description">{Product.description}</p>
+          <Rate reviews={Product.reviews} className="product-reviews" />
         </div>
       );
     });
